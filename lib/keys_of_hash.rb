@@ -3,7 +3,7 @@ require 'pry'
 class Hash
   def keys_of(*arguments)
 binding.pry
-    arguments.map do |name|
+    self.map do |name|
 
 
   #  if name == "Panama"

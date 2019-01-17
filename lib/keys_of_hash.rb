@@ -4,7 +4,7 @@ class Hash
   def keys_of(*arguments)
     new_array = []
     arguments.each do |name|
-    if name = "Panama"
+    if name == "Panama"
       new_array << "red-footed tortoise"
     end
   #  elsif *arguments = "Madagascar"

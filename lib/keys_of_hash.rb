@@ -3,13 +3,11 @@ require 'pry'
 class Hash
   def keys_of(*arguments)
 binding.pry
-    self.map do |key, value|
+    self.map {|key, value| arguments.include?(value)}
       if arguments.include?(value)
         return key
 
       end
-
-
 
     end.compact
 

@@ -12,5 +12,6 @@ class Hash
       new_array.push("sugar glider", "kangaroo", "koala")
     end
     end
+    new_array
   end
 end

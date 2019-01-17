@@ -10,6 +10,6 @@ class Hash
     elsif arguments == "Australia"
       new_array.push("sugar glider", "kangaroo", "koala")
     end
-binding.pry
+
   end
 end

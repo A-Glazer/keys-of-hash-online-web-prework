@@ -10,14 +10,9 @@ class Hash
 
       end
 
-  #  if name == "Panama"
-  #     "red-footed tortoise"
-#    elsif name == "Madagascar"
-#      "aye-aye", "tomato frog"
-#    elsif name == "Australia"
-#      "sugar glider", "kangaroo", "koala"
-#    end
-    end.split(",")
+
 binding.pry
+    end.split(",")
+
   end
 end

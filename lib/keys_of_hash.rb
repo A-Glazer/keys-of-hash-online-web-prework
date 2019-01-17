@@ -5,6 +5,7 @@ class Hash
 
     self.map do |key, value|
       arguments.include?(value)
+      return key
 
 
 

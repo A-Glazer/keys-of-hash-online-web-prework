@@ -6,12 +6,12 @@ class Hash
     arguments.each do |name|
     if name == "Panama"
       new_array << "red-footed tortoise"
-    end
-  #  elsif *arguments = "Madagascar"
+    
+    elsif *arguments = "Madagascar"
   #    new_array.push("aye-aye", "tomato frog")
   #  elsif *arguments = "Australia"
   #    new_array.push("sugar glider", "kangaroo", "koala")
-
-end
+    end
+    end
   end
 end

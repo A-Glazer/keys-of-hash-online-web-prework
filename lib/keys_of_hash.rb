@@ -5,7 +5,7 @@ class Hash
 
     self.map do |key, value|
       arguments.include?(value)
-binding.pry
+
 
 
   #  if name == "Panama"

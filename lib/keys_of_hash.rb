@@ -11,7 +11,7 @@ binding.pry
 
 
 
-    end.split(",")
+    end.compact
 
   end
 end

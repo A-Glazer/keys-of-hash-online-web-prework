@@ -17,7 +17,7 @@ class Hash
 #    elsif name == "Australia"
 #      "sugar glider", "kangaroo", "koala"
 #    end
-    end.split(" ")
+    end.split(",")
 
   end
 end

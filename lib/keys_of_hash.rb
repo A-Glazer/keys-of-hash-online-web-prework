@@ -4,13 +4,13 @@ class Hash
   def keys_of(*arguments)
 
     arguments.map do |name|
-    if name == "Panama"
-      new_array << "red-footed tortoise"
-    elsif name == "Madagascar"
-      new_array.push("aye-aye", "tomato frog")
-    elsif name == "Australia"
-      new_array.push("sugar glider", "kangaroo", "koala")
-    end
+  #  if name == "Panama"
+  #     "red-footed tortoise"
+#    elsif name == "Madagascar"
+#      "aye-aye", "tomato frog"
+#    elsif name == "Australia"
+#      "sugar glider", "kangaroo", "koala"
+#    end
     end
 
   end

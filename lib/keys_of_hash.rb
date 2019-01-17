@@ -2,8 +2,9 @@ require 'pry'
 
 class Hash
   def keys_of(*arguments)
+
+    self.map do |key, value|
 binding.pry
-    self.map do |name|
 
 
   #  if name == "Panama"

@@ -11,7 +11,7 @@ class Hash
   #    new_array.push("aye-aye", "tomato frog")
   #  elsif *arguments = "Australia"
   #    new_array.push("sugar glider", "kangaroo", "koala")
-    
 
+end
   end
 end

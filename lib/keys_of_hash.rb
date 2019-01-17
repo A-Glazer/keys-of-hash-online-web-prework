@@ -4,6 +4,8 @@ class Hash
   def keys_of(*arguments)
 
     arguments.map do |name|
+
+      
   #  if name == "Panama"
   #     "red-footed tortoise"
 #    elsif name == "Madagascar"

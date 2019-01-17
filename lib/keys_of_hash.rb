@@ -8,7 +8,8 @@ class Hash
         return key
 
 
-      end.to_a
+      end
+      
   #  if name == "Panama"
   #     "red-footed tortoise"
 #    elsif name == "Madagascar"

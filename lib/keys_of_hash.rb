@@ -9,7 +9,7 @@ class Hash
 
 
       end
-      
+
   #  if name == "Panama"
   #     "red-footed tortoise"
 #    elsif name == "Madagascar"
@@ -18,6 +18,6 @@ class Hash
 #      "sugar glider", "kangaroo", "koala"
 #    end
     end
-
+    
   end
 end

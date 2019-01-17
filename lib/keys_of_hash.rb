@@ -4,7 +4,7 @@ class Hash
   def keys_of(*arguments)
 
     self.map do |key, value|
-      
+      arguments.include?(value)
 binding.pry
 
 

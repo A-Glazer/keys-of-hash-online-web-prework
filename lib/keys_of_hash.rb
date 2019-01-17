@@ -5,7 +5,7 @@ class Hash
 
     self.map {|key, value| arguments.include?(value) ? key : nil }
 
-
+binding.pry
 
 
   end

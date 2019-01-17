@@ -2,8 +2,8 @@ require 'pry'
 
 class Hash
   def keys_of(*arguments)
-    new_array = []
-    arguments.each do |name|
+    
+    arguments.map do |name|
     if name == "Panama"
       new_array << "red-footed tortoise"
     elsif name == "Madagascar"
@@ -12,6 +12,6 @@ class Hash
       new_array.push("sugar glider", "kangaroo", "koala")
     end
     end
-    new_array
+    
   end
 end

@@ -1,7 +1,7 @@
 require 'pry'
 
 class Hash
-  def keys_of(*arguments)
+  def keys_of(arguments, *args)
     new_array = []
     if arguments == "Panama"
       new_array << "red-footed tortoise"
